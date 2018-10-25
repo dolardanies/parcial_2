@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mercado de valores</title>
+        <link href="main.css" rel="stylesheet">
+        <script src="MercadoController.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+    <body class="text-center" onload="consultarValores">
+
+        <div class="jumbotron text-center">
+            <div class="container">
+                <p> Consulta el mercado de valores de las acciones negociadas en la bolsa</p>
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="idAccion">Identificador de la accion</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="accionHelp" placeholder="Nombre de la accion">
+            </div>
+            <button type="submit" class="btn btn-primary">Consultar</button>
+        </form>
+    
+        <div>
+            <p class="valores_id">The ID is </p>
+            <p class="valores_content">The content is </p>
+        </div>
+    
+
+</body>
+</html>
