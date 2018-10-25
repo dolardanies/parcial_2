@@ -1,1 +1,1 @@
-web: java -jar target/java-getting-started-1.0.jar
+web: java -jar target/parcial_2-1.0.jar

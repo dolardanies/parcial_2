@@ -12,7 +12,9 @@ Link Github : https://github.com/dolardanies/parcial_2
 
 ## Descripcion del diseño
 
-
-## Explicacion como se puede extender y hacer que una funcion especifica implemente un proveedor de servicios diferente.
+El diseño basicamente es el siguiente:
+Se tiene un cliente web que desea consultar el clima , este cliente se comunica al 
+API del servidor de manera asíncrona desplegado en Heroku, en este caso se uso Axios para dicha 
+comunicacion, y dicho servidor me envia los datos a una memoria cache.
 
 
